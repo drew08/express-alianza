@@ -29,14 +29,11 @@ PATCH    http://localhost:3000/clients/6455afc236b1ea6e75fa4ec0
 Content-Type: application/json  
 
 {
-  "email": "example666@example.com",
-  "phoneNumber": "and666666",
-  "firstname": "Pepito Armado",
-  "lastname": "Pérez Pinzon",
-  "documentType": "CC",
-  "documentNumber": "10533422567",
-  "birthdate": "01-01-1992",
-  "expeditionDate": "01-01-2021"
+  "sharedKey": "andres",
+  "businessID": "andres ruiz",
+  "email": "andres@gmail.com",
+  "phone": "321512355",
+  "dataAdded": "20/05/2019"
 }
 
 
