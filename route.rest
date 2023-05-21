@@ -1,0 +1,46 @@
+GET http://localhost:3000/clients
+
+###
+
+GET http://localhost:3000/clients/6455c69c2e789fec910813b6
+
+###
+
+GET http://localhost:3000/clients/findbyemail/andrewPruebas@example.com
+
+
+###
+
+POST  http://localhost:3000/clients
+Content-Type: application/json  
+
+{
+  "sharedKey": "andres",
+  "businessID": "andres ruiz",
+  "email": "andres@gmail.com",
+  "phone": "321512355",
+  "dataAdded": "20/05/2019"
+}
+
+
+###
+
+PATCH    http://localhost:3000/clients/6455afc236b1ea6e75fa4ec0 
+Content-Type: application/json  
+
+{
+  "email": "example666@example.com",
+  "phoneNumber": "and666666",
+  "firstname": "Pepito Armado",
+  "lastname": "Pérez Pinzon",
+  "documentType": "CC",
+  "documentNumber": "10533422567",
+  "birthdate": "01-01-1992",
+  "expeditionDate": "01-01-2021"
+}
+
+
+###
+
+DELETE   http://localhost:3000/clients/6456d5e669b4e8b06bbbe486
+Content-Type: application/json  
